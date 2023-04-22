@@ -1,0 +1,80 @@
+    1  pwd
+    2  ls
+    3  ls Documents/
+    4  ls Desktop/
+    5  git clone https://gitlab.com/techveda/ldd-0920.git
+    6  sudo apt-get install git
+    7  git clone https://gitlab.com/techveda/ldd-0920.git
+    8  ls
+    9  ls ldd-0920/
+   10  tar -cvf ldd-0920.tar.gz ldd-0920
+   11  ls
+   12  du -m ldd-0920
+   13  du -m ldd-0920.tar.gz 
+   14  sudo init 0
+   15  ls
+   16  cd
+   17  ls
+   18  ls Desktop/
+   19  ls Documents/
+   20  ls Downloads/
+   21  cd
+   22  ls
+   23  git clone https://github.com/BhanuPrakashSingh/learning_c.git
+   24  cd learning_c/
+   25  ls
+   26  mkdir bhanu
+   27  cd bhanu/
+   28  ls
+   29  mkdir compilation_stages
+   30  cd compilation_stages/
+   31  vim test.h
+   32  sudp apt install vim
+   33  sudo apt install vim
+   34  sudo apt-get update --fix-missing
+   35  sudo rm /var/lib/dpkg/lock
+   36  sudo rm /var/lib/apt/lists/lock 
+   37  sudo rm /var/cache/apt/archives/lock 
+   38  sudo dpkg --configure -a
+   39  sudo lsof /var/lib/dpkg/lock-frontend
+   40  sudo kill -9 3387
+   41  sudo rm /var/lib/dpkg/lock-frontend
+   42  sudo dpkg --configure -a
+   43  sudo apt update
+   44  sudo apt-get install vim
+   45  ps | grep unattended
+   46  sudo kill -9 6418
+   47  sudo apt-get install vim
+   48  exit
+   49  ls
+   50  man
+   51  man ls
+   52  man vim
+   53  man vimdiff
+   54  man cd
+   55  man mkdir 
+   56  ls
+   57  mkdir -p shubham/comp_stages/header
+   58  ls
+   59  ls shubham/
+   60  ls shubham/comp_stages/header/
+   61  man mv
+   62  cd shubham/comp_stages/
+   63  ls
+   64  mv header include
+   65  ls
+   66  cd include/
+   67  vim hello.h
+   68  mv hello.h new_world.h
+   69  ls
+   70  man cp
+   71  ls
+   72  cp ~/learning_c/bhanu/compilation_stages/* .
+   73  ls
+   74  cp -r ~/learning_c/bhanu/compilation_stages .
+   75  ls
+   76  cd ..
+   77  rm -r include/
+   78  date
+   79  history
+   80  history > 220423_hist.txt

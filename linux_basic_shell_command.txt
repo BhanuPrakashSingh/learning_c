@@ -1,0 +1,53 @@
+1) Open Terminal
+right click -> select Terminal
+or
+ctrl + alt + t
+
+2) How to maximize terminal
+alt + space bar
+
+3) Open new tab in terminal
+click on + symbol on top left corner of terminal
+or
+ctrl + alt 
+
+4) To traverse across tabs in your terminal
+alt + tab_no 
+i.e. 
+alt + 1 : tab 1 
+alt + 2 : tab 2
+etc..
+
+==========================================================
+Shell Commands
+man	: displays manual page of any linux shell command
+ls	: list directory contents (ls -al)
+vim/vi	: Vi IMproved, a programmer's text editor
+	  - :w    write
+	  - :q    exit/quit
+	  - :wq   write and quit
+	  - :q!	  quit without saving changes
+	  - esc -> u undo the changes
+          - esc -> n <no. of lines> yy //copy n lines
+	  - p	  paste yanked/copied lines
+	  - esc -> n <no. of  line> dd //delete n lines
+	  - shift+5 (%) traverse from opening bracket to closing bracket or vice-versa
+	  - esc -> /Keyword : search for a keyword in file, n to look for next occurance, shift + n previous occurance
+	  - esc -> :%s/old string/new string/ : replaces all the old strings with new strings in file
+rm	: delete file
+vimdiff	: edit two, three or four versions of a file with Vim and show differences
+pwd	: present working directory
+cd	: change directory
+	  cd <without any option> takes us to home directory
+	  cd <dir name> takes to the mentioned directory
+	  cd ..   takes to parent directory
+mkdir	: make directories
+rm -r	: remove/delete directory
+mv 	: move (rename) files
+cp	: copy files and directories
+cp -r	: copy the directories
+date	: shows date/time
+history	: GNU History Library
+
+
+
