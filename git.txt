@@ -1,0 +1,33 @@
+Do only once:
+===============================================================
+1) Clone a repository:
+git clone <repo url:>
+e.g.:
+git clone https://github.com/BhanuPrakashSingh/learning_c.git
+
+2) Configure your git username and email
+git config --global user.name "user name"
+git config --global user.email "email"
+
+================================================================
+
+To commit your changes
+----------------------
+
+1) make your changes
+2) git status (check the current status of git repo)
+3) git diff (check the changes done by you)
+4) git add <file name/directory name>  (add your changes)
+5) git commit -m "commit message"
+6) git log (check the list of commits)
+7) git pull --rebase (rebase the changes from remote branch)
+8) git push (push your changes to remote branch)
+===============================================================
+Create branches
+---------------
+
+1) git branch (display your current branch)
+2) git branch -a (display all branches)
+3) git checkout -b <branch-name> (create and move to a new branch)
+4) git push --set-upstream origin <branch name> (to push your branch to remote)
+===============================================================================
