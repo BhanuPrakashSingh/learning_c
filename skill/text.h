@@ -1,0 +1,2 @@
+#define mark 10
+
