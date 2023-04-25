@@ -1,0 +1,27 @@
+Compilation commands:
+=====================
+
+1) Create a preprocessed file
+=============================
+gcc -o test.i -E test.c
+
+In pre-processing:
+	i)   Includes header file
+	ii)  Comments removal
+	iii) Macro Expansion
+	iv)  Conditional compilation
+
+2) Compilatio:
+=============
+Converts High level language to assembly language
+gcc -o test.s -S test.i
+
+3) Assembler:
+=============
+Converts assembly code into object code (0,1 format)
+gcc -o test.o -O test.s
+
+4) Linking:
+===========
+Links all libraries to object file
+gcc -o test -C test.c

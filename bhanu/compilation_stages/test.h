@@ -1,4 +1,4 @@
 #define MAX 10
 #define SUB(a,b) (a+b)
-#define YES 1
+#define YES 0
 int a,b;
