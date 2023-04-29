@@ -1,0 +1,13 @@
+	How to push your work on Github
+=========================================================
+
+command to write on terminal for uploading you work
+
+-------------------------------------------------------
+
+1)  git push
+2)  git status
+3)  git add <file name>
+4)  git commit -m "message"
+5)  git push
+
