@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	int  a=19;
+	static int  a=19;
 	printf("%d ",a);
 	{
-		int a=20;
+	static int a=20;
 		printf("%d ",a);
 	}
 	printf("%d ",a);
