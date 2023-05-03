@@ -8,6 +8,7 @@ int main(void)
 		int a=20;
 		printf("%d ",a);
 	}
+	printf("%d ",a);
 
 	return 0;
 }
