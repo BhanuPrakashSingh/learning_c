@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 main()
 {
 	int n,count,temp,rem,sum=0,temp1;
