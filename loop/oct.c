@@ -12,10 +12,11 @@ int main()
                 n/=8;
 
 	 }
-	 /*
+/*	 
 	rem=0;
 	n=sum;
 	sum=0;
+
 	while(n>0)
 	{
 	     rem=n%10;
