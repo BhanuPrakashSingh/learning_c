@@ -5,4 +5,3 @@ int main()
 		printf("%d",ch);
 	return 0;
 }
-
