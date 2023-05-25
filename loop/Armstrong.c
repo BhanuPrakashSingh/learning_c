@@ -24,7 +24,6 @@ int main()
                 }
                 if(sum==i)
                        printf("%d ",i);
-        }
+ 	}
        return 0;
 }
-

@@ -16,7 +16,6 @@ int main()
 			neg++;
 		if(num==0)
 			zero++;
-//		num=0;
 	}
 	printf("Positive: %d\tNegative: %d\tZero: %d\n",posi,neg,zero);
 	return 0;
